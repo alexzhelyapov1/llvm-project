@@ -1,0 +1,12 @@
+#ifndef LLVM_LIB_TARGET_LEXARCH_TARGETINFO_LEXARCHTARGETINFO_H
+#define LLVM_LIB_TARGET_LEXARCH_TARGETINFO_LEXARCHTARGETINFO_H
+
+namespace llvm {
+
+class Target;
+
+Target &getTheLexArchTarget();
+
+} // end namespace llvm
+
+#endif // LLVM_LIB_TARGET_LEXARCH_TARGETINFO_LEXARCHTARGETINFO_H
